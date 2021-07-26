@@ -1,0 +1,14 @@
+:root {
+  --background-color: #ffffffab;
+  --text-color: #1e1e1e;
+  --link-color: #0695adbf;
+}
+
+* {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+a {
+  color: var(--link-color) !important;
+}

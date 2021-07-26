@@ -1,0 +1,19 @@
+{
+  "name": "Dark Wikipedia",
+  "description": "Dark mode for any website (ig hehe)",
+  "version": "0.1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2,
+  "icons": {
+    "16": "./sleep_16.png",
+    "48": "./sleep_48.png",
+    "128": "./sleep_128.png"
+  },
+  "permissions": ["activeTab", "tabs", "<all_urls>"],
+  "browser_action": {
+    "default_title": "Dark Mode"
+  }
+}
